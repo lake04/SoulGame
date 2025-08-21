@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 105dbd286f0271e49b0b2b8538b3659a
+timeCreated: 1502620680
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 263442
+  packageName: Anime Girls Pack
+  packageVersion: 3.0
+  assetPath: Assets/Suriyun/Characters/Zombie01/Materials/Base_character/Zombie_eyeL.mat
+  uploadId: 727156

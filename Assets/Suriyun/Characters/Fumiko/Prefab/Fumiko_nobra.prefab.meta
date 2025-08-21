@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 01463963fd672b841b91528165b2ab74
+timeCreated: 1497541971
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 263442
+  packageName: Anime Girls Pack
+  packageVersion: 3.0
+  assetPath: Assets/Suriyun/Characters/Fumiko/Prefab/Fumiko_nobra.prefab
+  uploadId: 727156

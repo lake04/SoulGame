@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5bf0371def7888f48957200ca69c9760
+timeCreated: 1502694659
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 263442
+  packageName: Anime Girls Pack
+  packageVersion: 3.0
+  assetPath: Assets/Suriyun/Characters/Zombie01/Prefab/Zombie_girlA.prefab
+  uploadId: 727156

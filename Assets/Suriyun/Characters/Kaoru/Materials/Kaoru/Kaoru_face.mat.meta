@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f89582bae76076d498a0614ded03d0b9
+timeCreated: 1516696165
+licenseType: Store
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 263442
+  packageName: Anime Girls Pack
+  packageVersion: 3.0
+  assetPath: Assets/Suriyun/Characters/Kaoru/Materials/Kaoru/Kaoru_face.mat
+  uploadId: 727156
