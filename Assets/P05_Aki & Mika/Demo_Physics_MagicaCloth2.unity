@@ -732,6 +732,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: P05_ASTRO_PlusBP_Aki
       objectReference: {fileID: 0}
+    - target: {fileID: 3840290374099157440, guid: fe1954580ef85c2468a9da35b5fd1d12, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4132756365899624951, guid: fe1954580ef85c2468a9da35b5fd1d12, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5

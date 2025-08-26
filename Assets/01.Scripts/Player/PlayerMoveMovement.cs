@@ -2,20 +2,37 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    [SerializeField]
+    private Player player;
+    [Header("# speed")]
     [SerializeField] private float moveSpeed = 5f;
+    [SerializeField] private float oringSpeed = 5f;
     [SerializeField] private float rotationSpeed = 10f;
     [SerializeField] private Transform cameraTransform; // 카메라 Transform 연결
 
-    private Animator animator;
+
+    [SerializeField] private float runSpeed = 10f;
 
     void Start()
     {
-        animator = GetComponentInChildren<Animator>();
+        player = GetComponent<Player>();
     }
 
     void Update()
     {
         Move();
+        Run();
+    }
+
+    private void Run()
+    {
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            moveSpeed = runSpeed;
+        }
+        else{
+            moveSpeed = oringSpeed;
+        }
     }
 
     private void Move()
@@ -44,12 +61,11 @@ public class PlayerMovement : MonoBehaviour
             Quaternion targetRotation = Quaternion.LookRotation(moveDir, Vector3.up);
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
 
-            // 애니메이션
-            animator.SetBool("isMove", true);
+            player.animator.SetBool(PlayerAnimation.isMove, true);
         }
         else
         {
-            animator.SetBool("isMove", false);
+            player.animator.SetBool(PlayerAnimation.isMove, false);
         }
     }
 }
